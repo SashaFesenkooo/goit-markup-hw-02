@@ -10,8 +10,8 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
   color: var(--main-font-color);
+  font-family: 'Roboto', sans-serif;
 }
 
 .page-header{
@@ -183,8 +183,8 @@ body{
 }
 
 .team-sub{
-color: var(--second-font-color);
-line-height: 1.18;
+  color: var(--second-font-color);
+  line-height: 1.18;
 }
 
 .column{
