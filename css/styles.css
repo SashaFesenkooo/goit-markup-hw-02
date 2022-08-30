@@ -2,6 +2,7 @@
 
 :root {
 --logo-color:#2196F3;
+--logo-secondary-color:#000000;
 --brand-color: #F5F5F5;
 --nav-color:#FFFFFF;
 --headfoot-color:#2F303A;
@@ -9,6 +10,8 @@
 
 --main-font-color:#212121;
 --second-font-color:#757575;
+
+--border-color:#ECECEC;
 }
 
                                       /* Body */
@@ -22,7 +25,7 @@ body{
 
 .page-header {
   background-color: var(--nav-color);
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .logo {
@@ -35,15 +38,15 @@ body{
   }
 
 .slogan {
-  color: #000000;
+  color: var(--logo-secondary-color);
 }
 
 .site-nav {
   list-style: none;
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--logo-color);
 }
 
@@ -67,8 +70,8 @@ body{
   list-style: none;
 }
 
-.auth-nav a:hover,
-.auth-nav a:focus {
+.auth-nav .copy:hover,
+.auth-nav .copy:focus {
   color: var(--logo-color);
 }
 
@@ -92,6 +95,7 @@ body{
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
+  text-transform: uppercase;
 }
 
 .btn {
@@ -109,6 +113,11 @@ body{
   cursor: pointer;
 }
 
+.btn:hover,
+.btn:focus{
+  background-color: var(--logo-color);
+}
+
                                   /* One Section */
 
 .visually-hidden {
@@ -124,6 +133,7 @@ body{
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .post-text {
@@ -148,7 +158,6 @@ body{
 
 .team {
   background-color: var(--fsection-color);
-  font-size: 16px;
 }
 
 .list-ttl {
@@ -162,11 +171,13 @@ body{
 .team-title {
   color: var(--main-font-color);
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.18;
 }
 
 .team-sub {
   color: var(--second-font-color);
+  font-size: 16px;
   line-height: 1.18;
 }
 
@@ -188,6 +199,8 @@ body{
   color: var(--nav-color);
   text-decoration: none;
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .text:hover,
@@ -199,6 +212,8 @@ body{
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .copyright:hover,
@@ -218,6 +233,7 @@ body{
   font-weight: 500;
   line-height: 1.62;
   cursor: pointer;
+  background-color: var(--fsection-color);
 }
 
 .click:hover,
@@ -231,7 +247,7 @@ body{
 
 }
 
-.project a {
+.project .visit {
   text-decoration: none;
 }
 
