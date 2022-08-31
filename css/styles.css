@@ -97,6 +97,7 @@ body{
   font-weight: 900;
   line-height: 1.36;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .btn {
@@ -150,6 +151,7 @@ body{
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
+  text-align: center;
 }
 
 .label {
