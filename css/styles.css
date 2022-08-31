@@ -112,6 +112,7 @@ body{
   font-weight: 700;
   line-height: 1.87;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .btn:hover,
@@ -230,6 +231,7 @@ body{
 
 .click {
   color: var(--main-font-color);
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
