@@ -22,6 +22,13 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
                                       /*  Header*/
 
 .page-header {
@@ -42,9 +49,6 @@ body{
   color: var(--black-color);
 }
 
-.site-nav {
-  list-style: none;
-}
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -65,10 +69,6 @@ body{
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-}
-
-.auth-nav {
-  list-style: none;
 }
 
 .auth-nav .copy:hover,
@@ -120,10 +120,6 @@ body{
   transform: scale(0);
 }
 
-.post {
-  list-style: none;
-}
-
 .post-title {
   color: var(--main-font-color);
   font-size: 14px;
@@ -147,19 +143,12 @@ body{
   text-align: center;
 }
 
-.label {
-  list-style: none;
-}
-
                                  /* Three Section */
 
 .team {
   background-color: var(--fsection-color);
 }
 
-.list-ttl {
-  list-style: none;
-}
 
 .list-ttl li {
   background-color: var(--nav-color);
@@ -186,10 +175,6 @@ body{
 
 .caption{
   color: var(--nav-color);
-}
-
-.content {
-  list-style: none;
 }
 
 .text {
@@ -220,10 +205,6 @@ body{
 
                                     /* Portfolio Section */
 
-.column {
-  list-style: none;
-}
-
 .click {
   color: var(--main-font-color);
   font-family: inherit;
@@ -238,15 +219,6 @@ body{
 .click:focus {
   background-color: var(--logo-color);
   color: var(--nav-color);
-}
-
-.project {
-  list-style: none;
-
-}
-
-.project .visit {
-  text-decoration: none;
 }
 
 .project-ttl {
