@@ -2,7 +2,8 @@
 
 :root {
 --logo-color:#2196F3;
---logo-secondary-color:#000000;
+--logo-secondary-color:#188CE8;
+--black-color:#000000;
 --brand-color: #F5F5F5;
 --nav-color:#FFFFFF;
 --headfoot-color:#2F303A;
@@ -38,7 +39,7 @@ body{
   }
 
 .slogan {
-  color: var(--logo-secondary-color);
+  color: var(--black-color);
 }
 
 .site-nav {
@@ -100,7 +101,7 @@ body{
 
 .btn {
   color: var(--nav-color);
-  background-color: var(--logo-color);
+  background-color:var(--logo-secondary-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   width: 216px;
